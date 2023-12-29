@@ -4,7 +4,7 @@ jenkinsapi
 ## Install
 
 <pre>
-npm install jenkins-pi
+npm install jenkinsapi
 </pre>
 
 ## Usage
@@ -12,7 +12,7 @@ npm install jenkins-pi
 ### Setup
 
 ```javascript
-var jenkinsapi = require('jenkins-api');
+var jenkinsapi = require('jenkinsapi');
 
 // no auth
 var jenkins = jenkinsapi.init("http://jenkins.com");
